@@ -143,16 +143,12 @@ tables$gapminderDB$year %>% unique()
 1960 till 2015. we've also seen in 7.8 that the flu data has 406 rows while the dengue data has 140 rows. 
 
 ```{r}
-# db_names <- c("tables$fluDB$country", "tables$dengueDB$country", "tables$gapminderDB$country")
-# for (i in db_names){
-#   amount_factor(get(i)) 
-# } 
-
 amount_factor(tables$fluDB$country)
 amount_factor(tables$dengueDB$country)
 amount_factor(tables$gapminderDB$country)
 
 ```
+
 ```{r}
 levelF <- tables$fluDB$country %>% as.factor %>% levels()
 levelD <- tables$dengueDB$country %>% as.factor %>% levels()

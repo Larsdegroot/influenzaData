@@ -1,16 +1,23 @@
 Package: influenzaData
-Title: What the Package Does (One Line, Title Case)
+Title: Influenza data set
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Lars",
+           family = "de Groot",
            role = c("aut", "cre"),
            email = "first.last@example.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Description: This package contains a joined dataset between the gapminder dataset and a influenza cases dataset. And has multiple functions to explore it.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Imports: 
+    dplyr,
+    dslabs,
+    ggplot2,
+    magrittr,
+    stringi,
+    stringr,
+    utils
