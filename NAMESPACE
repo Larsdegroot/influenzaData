@@ -2,7 +2,8 @@
 
 export("%>%")
 export(amount_factor)
+export(capture_package_name)
 export(common)
 export(export)
-export(general_inspection)
+export(format_version)
 importFrom(magrittr,"%>%")

@@ -1,5 +1,5 @@
-Package: influenzaData
-Title: Influenza data set
+Package: RMDutil
+Title: Rmarkdown utility functions
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Lars",
@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "first.last@example.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: This package contains a joined dataset between the gapminder dataset and a influenza cases dataset. And has multiple functions to explore it.
+Description: This package has a variety of function usefull for working in the Rmarkdown format.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -16,7 +16,6 @@ RoxygenNote: 7.1.1
 Imports: 
     dplyr,
     dslabs,
-    ggplot2,
     magrittr,
     stringi,
     stringr,
