@@ -23,5 +23,5 @@ common <- function(x, pattern){
     }
   }
 
-  commons %>% print()
+  return(commons)
 }
